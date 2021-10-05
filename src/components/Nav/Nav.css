@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  height: 45px;
+  transition: all 0.16s;
+  transition-timing-function: ease-in;
+}
+
+.nav_title {
+  color: red;
+  position: fixed;
+  left: 20px;
+}
+
+.nav_icon {
+  margin-top: 10px;
+  position: fixed;
+  right: 20px;
+}
+.nav_black {
+  background-color: rgba(0, 0, 0, 0.861);
+}
